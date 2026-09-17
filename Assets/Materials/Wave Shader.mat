@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3691043923237987162
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wave Shader
+  m_Shader: {fileID: -6465566751694194690, guid: bd2bbdd951691ae46b6f0dfb8c4bd96d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Amplitude: 0.4
+    - _Caustic_Intensity: 7
+    - _Caustic_Scale_1: 0.6
+    - _Caustic_Scale_2: 0.2
+    - _Caustic_Speed_1: 0.2
+    - _Caustic_Speed_2: 3
+    - _FogDensity: 0.1
+    - _Fresnel_Power: 1
+    - _Glimmer_Speed: 0.1
+    - _Glitter_Intensity: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Refraction_Strength: 0.2
+    - _Smoothness: 0.1
+    - _Speed: 0.6
+    - _Steepness: 0.6
+    - _Water_Alpha: 0.6
+    - _Water_Alpha_Deep: 0.9
+    - _Water_Alpha_Edge: 0.6
+    - _Wavenumber: 0.2
+    m_Colors:
+    - _Color: {r: 0.22258809, g: 0.7735849, b: 0.58771825, a: 1}
+    - _Deep_Color: {r: 0, g: 0.48695225, b: 0.5176471, a: 1}
+    - _Deep_Fog_Color: {r: 0.014061932, g: 0.02208698, b: 0.03773582, a: 1}
+    - _Edge_Color: {r: 0.035294108, g: 0.41224143, b: 0.42352942, a: 1}
+    - _Foam_Color: {r: 0.48393556, g: 0.8207547, b: 0.6634085, a: 0.98039216}
+    - _Top_Wave_Color: {r: 0.0017799971, g: 0.34321502, b: 0.3773585, a: 1}
+    - _Wave_Direction: {r: 0, g: 0.2, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
