@@ -2,6 +2,7 @@
  ​A small stylized environment demo, built as a deep dive into custom toon shading and procedural nature art in Unity.
  Every piece of foliage, shader here was hand-built. Grass and trees are modeled in Blender. 
  The whole scene runs on custom shaders featuring:
+ 
  **Try on itch.io :** https://kutpac.itch.io/nature-shader-demo
  
   - **Custom grass shader** — toon-banded lighting, Fresnel rim glow, per-clump color variation driven by world-space noise, and wind sway with per-instance phase offsets so fields of grass don't sway in
